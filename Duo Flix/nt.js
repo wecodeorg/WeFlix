@@ -1,0 +1,1 @@
+$(".account-menu-item").remove();

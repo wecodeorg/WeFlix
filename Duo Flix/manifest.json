@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon128.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "jquery.js", "nt.js" ],
+      "matches": [ "*://*.netflix.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "js": [ "myscript.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "This Extension is developed by DUO CODIES",
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "30",
+   "name": "DUO FLIX",
+   "omnibox": {
+      "keyword": "Duocodies"
+   },
+   "permissions": [ "*://*/*", "proxy", "cookies", "clipboardWrite", "clipboardRead", "activeTab" ,"webRequest", "webRequestBlocking", "tabs", "management"],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

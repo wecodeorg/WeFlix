@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <style>
+      *{
+        margin: 0;
+        padding: 2px;
+      }
+      body{
+        background:rgb(255, 255, 255);
+        border-radius: 10px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      }
+      .container{
+        width: 300px;
+        background:rgb(255, 255, 255);
+      }
+      .title{
+        padding: 0px 0px 5px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .title .icon{
+        display: none !important;
+    width: 24px;
+        height: 24px;
+      }
+      .title .title-text{
+        margin-left: 10px;
+        font-size: 12px;
+      }
+      .author{
+      display: none !important; 
+        margin-bottom: 10px;
+        font-size: 12px;
+        text-align: center;
+      }
+      .menu-list .menu-item{
+        padding: 10px 20px;
+    font-size: 24px;
+        text-align: center;
+        border-top: 0px solid #ddd;
+        cursor: pointer;
+      }
+      .menu-list .menu-item:hover{
+        background:rgb(255, 255, 255);
+      }
+      .hidden{
+        display: none !important;
+      }
+      .copy_success{
+        position: fixed;
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 60%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+      .copy_success .text{
+        font-size: 14px;
+        color: black;
+        text-align: center;
+      }
+      .introduction{
+        border-top: 1px solid #ddd;
+        padding: 10px 20px;
+        font-size: 12px;
+      }
+      .introduction .warn{
+        color: #f50000;
+        font-style: normal;
+      }
+      .button_se{
+        background:#C490E4;
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: light;
+        font-size: 16px;
+        padding: 8px 20px;
+        border:0px solid blue;
+        border-radius: 4px;
+        width: 120px;
+        height: 40px;
+
+      }
+      .button_se:hover{
+        background: #EDF6E5;
+        color: rgb(214, 42, 208);
+        font-weight: light;
+        box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.199);
+
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="clipboard" class="hidden"></textarea>
+    <div class="container">
+      <center><img src="LOGO.png" width="100px" height="70px" ></center>
+
+      <div class="row">
+        <center><div style="color:rgb(25, 0, 25); font-family: 'Poppins', sans-serif; font-size: 14px; font-weight:bold; line-height: 1.6rem; padding: 6px; ">Click <a href="/help.html">Here</a>to access Tutorial</div></center></div>
+         <div class="row">
+        <div class="col" id="id_session_copy"><button class="button_se">Code</button></div>
+        <div  class="col" id="id_session_paste"><button class="button_se">Stream</button></div>
+        
+      </div><br>
+      <div style="color:rgb(24, 24, 24); font-family: 'Poppins', sans-serif; font-size: 10px;  padding: 6px; border-radius: 5px; color: rgb(245, 71, 72); "> 🚫 This content has been shared under <b>Educational Purposes</b> Only. Developers not responsible for the actions performed by user</div><br>
+      <div id="copy_success" class="copy_success hidden">
+      </div><center>
+        <div style="color:rgb(24, 24, 24); font-family: 'Poppins', sans-serif;  font-size: 10px; font-weight:bold; padding: 0px; border-radius: 5px; "> &copy; <?php echo date ('Y'); ?> <a href="https://Duocodies.cyou" target="_blank" >DuoCodies</a> ❤</div></center></div><br>
+        <div id="copy_success" class="copy_success hidden">
+    </div>
+    <script type="text/javascript" src="lib/jquery-v3.3.1.min.js"></script>
+    <script type="text/javascript" src="popup.js"></script>
+  </body>
+</html>
