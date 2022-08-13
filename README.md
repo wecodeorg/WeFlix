@@ -1,16 +1,16 @@
 
-[![GitHub](https://img.shields.io/github/license/duocodies/duoflix)](https://github.com/Duocodies/DuoFlix/blob/main/LICENSE)
+[![GitHub](https://img.shields.io/github/license/wecodeorg/WeFlix)](https://github.com/wecodeorg/WeFlix/blob/main/LICENSE)
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Duocodies/duoflix">
+  <a href="https://github.com/wecodeorg/WeFlix">
     <img src="https://avatars.githubusercontent.com/u/79436918?s=200&v=4g" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Duo Flix</h3>
+  <h3 align="center">WeFlix</h3>
 
   <p align="center">
     Share your Netflix Account Without Password
@@ -19,7 +19,7 @@
     <br />
     <a href="#roadmap">Demo Code</a>
     ·
-    <a href="https://github.com/duocodies/duoflix/issues">Report Bug</a>
+    <a href="https://github.com/wecodeorg/WeFlix/issues">Report Bug</a>
     
   </p>
 </p>
@@ -64,7 +64,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Installation
 
-1. Download the Extension [Here](https://github.com/Duocodies/DuoFlix/archive/refs/heads/main.zip)
+1. Download the Extension [Here](https://github.com/wecodeorg/WeFlix/archive/refs/heads/main.zip)
 
 2. Unzip the Extension
 
@@ -96,7 +96,7 @@ DuoCodies U2FsdGVkX19fZG13sraUUyGxx2v9qydU6qru9sKR1XPiM7PeUQGHg623Nu/5CAVoMpcXJq
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/duocodies/duoflix/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/wecodeorg/WeFlix/issues) for a list of proposed features (and known issues).
 
 
 
